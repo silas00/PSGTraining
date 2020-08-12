@@ -1,0 +1,20 @@
+public class TABUADA {
+
+	public static void main(String[] args) {
+		
+		//PARAMETRO PARA MULTIPLICAÇÃO DE 0 A 10//
+		for (int i = 1; i<=10; i++){
+			System.out.println("-- A TABUADA DE " + i + " --");
+			
+			//PARAMETRO PARA O MULTIPLICADOR DE 0 A 10//
+			for (int j = 1; j<=10; j++){
+		
+				//EMPRESSÃO DE RESULTADO NA TELA DO PRODUTO FINAL//
+				System.out.println (i+" x "+ j + " = " + i*j);
+				
+				
+			}
+		}	
+	}
+
+}
