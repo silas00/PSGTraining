@@ -9,18 +9,16 @@ public class NOMES {
 
 		Scanner sc = new Scanner(System.in);
 
-		String[] nomes = new String[3];
+		int n = sc.nextInt();
+		String[] nomes = new String[n];
 
-		nomes[0] = sc.nextLine();
-		nomes[1] = sc.nextLine();
-		nomes[2] = sc.nextLine();
+		for (int i = 0; i < nomes.length; i++) {
+			nomes[i] = sc.next();
+		}
 		
-		Arrays.sort(nomes);
+		for (int i = 0; i < nomes.length; i++) {
+			System.out.println(nomes[i]);
+		}
 		
-	    for(int i = 0; i < nomes.length; i ++){
-	        System.out.println(nomes[i]);
-
 	}
-
-}
 }
