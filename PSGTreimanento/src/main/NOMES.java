@@ -9,11 +9,11 @@ public class NOMES {
 
 		Scanner sc = new Scanner(System.in);
 
-		int[] nomes = new int[3];
+		String[] nomes = new String[3];
 
-		nomes[1] = sc.nextInt();
-		nomes[2] = sc.nextInt();
-		nomes[3] = sc.nextInt();
+		nomes[0] = sc.nextLine();
+		nomes[1] = sc.nextLine();
+		nomes[2] = sc.nextLine();
 		
 		Arrays.sort(nomes);
 		
