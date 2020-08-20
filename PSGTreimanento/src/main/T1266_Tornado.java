@@ -19,6 +19,7 @@ public class T1266_Tornado {
 		for ( int i = 0; i < (x.length - 1); i++) {
 			if (x[i] == 0 && x[i + 1] == 0) {
 				poste += 1;
+				x[i + 1] = 1;
 				}
 		}
 
